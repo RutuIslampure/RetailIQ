@@ -1,0 +1,13 @@
+# Ignore large files — too big for GitHub
+online+retail+ii.zip
+online_retail_II.xlsx
+
+# Ignore notebooks — not needed for deployment
+week1_basics.ipynb
+week2_eda.ipynb
+week3_sql.ipynb
+week4_ml.ipynb
+
+# Ignore extra csv files not needed by app
+customer_tiers.csv
+repeat_customers.csvdir
