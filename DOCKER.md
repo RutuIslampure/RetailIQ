@@ -17,7 +17,7 @@ Stop with `Ctrl+C`, or `docker compose down` if run detached (`-d`).
 ## Without compose
 ```bash
 docker build -t retailiq .
-docker run -p 8501:8501 retailiq
+docker run -p 8502:8501 retailiq
 ```
 
 ## Why this works "the same in every environment"
