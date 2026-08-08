@@ -25,6 +25,21 @@ from the UCI Online Retail II dataset.
 - **ML Models:** Logistic Regression, Random Forest, Gradient Boosting
 - **Deployment:** Streamlit Cloud, Git/GitHub
 
+## Run with Docker
+The easiest way to run this project locally — no need to manually install Python packages.
+
+**Prerequisites:** [Docker Desktop](https://www.docker.com/products/docker-desktop) installed and running.
+
+```bash
+git clone https://github.com/Rutulslampure/RetailIQ.git
+cd RetailIQ
+docker compose up --build
+```
+
+Then open http://localhost:8501 in your browser.
+
+See [DOCKER.md](./DOCKER.md) for more details.
+
 ## ML Results
 | Model | AUC Score |
 |---|---|
