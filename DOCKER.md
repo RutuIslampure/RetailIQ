@@ -10,7 +10,7 @@ Copy these 3 files into your project root (same folder as `app.py`):
 ```bash
 docker compose up --build
 ```
-Then open http://localhost:8501
+Then open http://localhost:8502
 
 Stop with `Ctrl+C`, or `docker compose down` if run detached (`-d`).
 
