@@ -36,7 +36,7 @@ cd RetailIQ
 docker compose up --build
 ```
 
-Then open http://localhost:8501 in your browser.
+Then open http://localhost:8502 in your browser.
 
 See [DOCKER.md](./DOCKER.md) for more details.
 
