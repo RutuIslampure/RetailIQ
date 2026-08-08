@@ -1,0 +1,25 @@
+# Not needed at runtime — app.py never reads these
+online_retail_II.xlsx
+online+retail+ii.zip
+week1_basics.ipynb
+week2_eda.ipynb
+week3_sql.ipynb
+week4_ml.ipynb
+customer_tiers.csv
+repeat_customers.csv
+model_results.csv
+README.md
+
+# Version control / editor / OS junk
+.git
+.gitignore
+.vscode
+.idea
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local env stuff
+.env
+venv/
+.venv/

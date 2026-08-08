@@ -1,0 +1,11 @@
+services:
+  retailiq:
+    build: .
+    ports:
+      - "8501:8501"
+    # Live-reload during development: edit app.py locally and Streamlit
+    # picks it up without rebuilding the image. Remove this line for a
+    # production/deployment image where you want the code baked in.
+    volumes:
+      - ./app.py:/app/app.py
+    restart: unless-stopped
